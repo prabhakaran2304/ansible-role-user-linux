@@ -121,7 +121,7 @@ All assistance, changes or ideas [welcome][issues]!
 By [Prabhakaran V]
 
 
-[travis_image]:         https://travis-ci.org/GROG/ansible-role-user-linux.svg?branch=master
-[travis_link]:          https://travis-ci.org/GROG/ansible-role-user-linux
+[travis_image]:         https://travis-ci.org/prabhakaran2304/ansible-role-user-linux.svg?branch=master
+[travis_link]:          https://travis-ci.org/prabhakaran2304/ansible-role-user-linux
 
 
