@@ -1,8 +1,5 @@
 # User
 
-[![Ansible Galaxy][galaxy_image]][galaxy_link]
-[![Build Status][travis_image]][travis_link]
-[![Latest tag][tag_image]][tag_url]
 
 A role for managing users.
 
