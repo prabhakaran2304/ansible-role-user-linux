@@ -1,5 +1,7 @@
 # User
 
+[![Ansible Galaxy][galaxy_image]][galaxy_link]
+[![Latest tag][tag_image]][tag_url]
 [![Build Status][travis_image]][travis_link]
 
 A role for managing users.
@@ -109,7 +111,10 @@ user_list_group:
 ## Author
 By [Prabhakaran V]
 
-
+[galaxy_image]:         http://img.shields.io/badge/ansible-role-user-linux--user-660198.svg?style=flat
+[galaxy_link]:          https://galaxy.ansible.com/prabhakaran2304/ansible-role-user-linux
+[tag_image]:            https://img.shields.io/github/tag/prabhakaran2304/ansible-role-user-linux.svg
+[tag_url]:              https://github.com/prabhakaran2304/ansible-role-user-linux/tags
 [travis_image]:         https://travis-ci.org/prabhakaran2304/ansible-role-user-linux.svg?branch=master
 [travis_link]:          https://travis-ci.org/prabhakaran2304/ansible-role-user-linux
 
