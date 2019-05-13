@@ -111,7 +111,7 @@ user_list_group:
 ## Author
 By [Prabhakaran V]
 
-[galaxy_image]:         http://img.shields.io/badge/ansible-role-user-linux--user-660198.svg?style=flat
+[galaxy_image]:         https://img.shields.io/badge/galaxy-prabhakaran2304.ansible--role--user--linux-orange.svg?style=flat
 [galaxy_link]:          https://galaxy.ansible.com/prabhakaran2304/ansible-role-user-linux
 [tag_image]:            https://img.shields.io/github/tag/prabhakaran2304/ansible-role-user-linux.svg
 [tag_url]:              https://github.com/prabhakaran2304/ansible-role-user-linux/tags
