@@ -5,7 +5,7 @@ A role for managing users.
 
 Following roles where designed to neatly work together with this role:
 
-- [authorized-key][grog.authorized-key], for managing authorized-keys.
+- [authorized-key][infrausr.authorized-key], for managing authorized-keys.
 - [sudo][infrausr.sudo], for managing sudo rights.
 
 The [management-user][infrausr.management-user] role combines all these roles in
