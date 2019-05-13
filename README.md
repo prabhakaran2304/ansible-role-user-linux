@@ -1,5 +1,6 @@
 # User
 
+[![Build Status][travis_image]][travis_link]
 
 A role for managing users.
 
@@ -120,6 +121,7 @@ All assistance, changes or ideas [welcome][issues]!
 By [Prabhakaran V]
 
 
-
+[travis_image]:         https://travis-ci.org/GROG/ansible-role-user-linux.svg?branch=master
+[travis_link]:          https://travis-ci.org/GROG/ansible-role-user-linux
 
 
