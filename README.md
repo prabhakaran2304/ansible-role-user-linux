@@ -4,14 +4,6 @@
 
 A role for managing users.
 
-Following roles where designed to neatly work together with this role:
-
-- [authorized-key][infrausr.authorized-key], for managing authorized-keys.
-- [sudo][infrausr.sudo], for managing sudo rights.
-
-The [management-user][infrausr.management-user] role combines all these roles in
-one easy to use role.
-
 ## Requirements
 
 - Hosts should be bootstrapped for ansible usage (have python,...)
@@ -113,9 +105,6 @@ user_list_group:
   - name: testgrp
     state: absent
 ```
-
-## Contributing
-All assistance, changes or ideas [welcome][issues]!
 
 ## Author
 By [Prabhakaran V]
