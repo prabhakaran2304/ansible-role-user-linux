@@ -4,13 +4,7 @@ galaxy_info:
   description: A role for managing users.
   min_ansible_version: 2.0
   platforms:
-  - name: GenericUNIX
-    versions:
-    - all
-  - name: GenericBSD
-    versions:
-    - all
-  - name: GenericLinux
+  - name: Generic Linux
     versions:
     - all
   galaxy_tags:
