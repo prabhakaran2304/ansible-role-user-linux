@@ -5,11 +5,10 @@ services: docker
 env:
   global:
     - ROLE_NAME: user-linux
-  matrix:
-    - MOLECULE_DISTRO: centos7
-    - MOLECULE_DISTRO: ubuntu1804
-    - MOLECULE_DISTRO: ubuntu1604
-    - MOLECULE_DISTRO: debian9
+
+before_install:
+  - docker pull centos 
+  - docker run -i -t centos
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
