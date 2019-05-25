@@ -1,15 +1,18 @@
 ---
 language: python
-python: "2.7"
+services: docker
+
+env:
+  global:
+    - ROLE_NAME: user
+  matrix:
+    - MOLECULE_DISTRO: centos7
+    - MOLECULE_DISTRO: ubuntu1804
+    - MOLECULE_DISTRO: ubuntu1604
+    - MOLECULE_DISTRO: debian9
 
 # Do not use the new container infrastructure
 sudo: true
-
-# Install ansible
-addons:
-  apt:
-    packages:
-    - python-pip
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
