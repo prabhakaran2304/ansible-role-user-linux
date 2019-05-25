@@ -1,6 +1,7 @@
 ---
 - hosts: localhost
   remote_user: root
+  become: yes
   roles:
     - role: ansible-role-user-linux
       user_list:
