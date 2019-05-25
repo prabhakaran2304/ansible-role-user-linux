@@ -1,18 +1,7 @@
 ---
 language: python
 services: docker
-    
-env:
-  global:
-    - ROLE_NAME: user-linux
-  matrix:
-    - MOLECULE_DISTRO: centos7
-    - MOLECULE_DISTRO: ubuntu1804
-    - MOLECULE_DISTRO: ubuntu1604
-    - MOLECULE_DISTRO: debian9
-
-notifications:
-  webhooks: https://galaxy.ansible.com/api/v1/notifications/
+dist: xenial
 
 install:
   - sudo apt-get update
@@ -44,3 +33,6 @@ script:
 
   # Check if the test user is added.
   - id test
+  
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
