@@ -4,15 +4,12 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: user
+    - ROLE_NAME: user-linux
   matrix:
     - MOLECULE_DISTRO: centos7
     - MOLECULE_DISTRO: ubuntu1804
     - MOLECULE_DISTRO: ubuntu1604
     - MOLECULE_DISTRO: debian9
-
-# Do not use the new container infrastructure
-sudo: true
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
