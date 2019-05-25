@@ -2,6 +2,10 @@
 language: python
 services: docker
 
+addons:
+  apt:
+    update: true
+    
 env:
   global:
     - ROLE_NAME: user-linux
